@@ -1,0 +1,82 @@
+
+.containerModal{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(128, 147, 160, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    transition: visibility 0.9s, visibility 0.7s, opacity 0.7s;
+    position: fixed;
+    color: #cee8ff;
+}
+
+.hiddenModal {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.closeBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 0.4rem;
+    right: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #acc2ef;
+    transition: background-color 0.5s;
+}
+
+.closeBtn:hover {
+    background-color: #FF3D3D;
+}
+
+.modalTitle {
+    border-bottom: 2px solid #cee8ff;
+    padding-bottom: 1rem;
+}
+
+.form {
+    background-color: #3D5A80;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.50rem;
+    position: relative;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+div > input {
+    border: none;
+    outline: none;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.sendBtnModal {
+    border: none;
+    outline: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #cee8ff;
+    border-radius: 0.5rem;
+    transition: background-color 0.5s;
+}
+
+.sendBtnModal:hover {
+    background-color: #FF3D3D;
+}
+

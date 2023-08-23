@@ -1,0 +1,72 @@
+
+.containerUser {
+    width: 15rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.9rem;
+    border: 2px solid coral;
+    border-top-right-radius: 0;
+    box-shadow: 5px 5px 2px rgba(136, 136, 136, 0.5);
+}
+
+.titleContent{
+    width: 100%;
+    height: 4rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom: 2px solid coral;
+    background-color: #4d648d;
+    color: #cee8ff;
+}
+
+.titleUser{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoUser {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 0.4rem;
+    height: 8rem;
+}
+
+.containtButtons {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    gap: 0.1rem;
+    background-color: coral;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.containtButtons > button {
+    width: 50%;
+    border-style: none;
+    cursor: pointer;
+    background-color: #4d648d;
+    color: #cee8ff;
+    transition: background-color 0.5s;
+}
+
+.containtButtons > button:hover {
+    background-color: #FF3D3D;
+} 
+
+.btnUpdate {
+    border-bottom-left-radius: 0.8rem;
+}
+
+.btnDelete {
+    border-bottom-right-radius: 0.8rem;
+}
+

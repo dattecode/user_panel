@@ -1,0 +1,14 @@
+
+.whiteMode{
+    background-color: #FFFFFF;
+    color: #374357;
+    min-height: 100vh;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.darkMode {
+    background-color: #1f2b3e;
+    color: #FFFFFF;
+    min-height: 100vh;
+    transition: background-color 0.5s, color 0.5s;
+}
